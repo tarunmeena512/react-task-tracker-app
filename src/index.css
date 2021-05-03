@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif  !important;
+}
+
+.container {
+  max-width: 500px  !important;
+  margin: 30px auto  !important;
+  overflow: auto  !important;
+  min-height: 300px  !important;
+  border: 1px solid steelblue  !important;
+  padding: 30px  !important;
+  border-radius: 5px  !important;
+}
+
+.header {
+  display: flex  !important;
+  justify-content: space-between  !important;
+  align-items: center  !important;
+  margin-bottom: 20px  !important;
+}
+
+.btn {
+  display: inline-block !important;
+  background: #000 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  margin: 5px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+  font-family: inherit !important;
+}
+.btn.btnRed {
+  display: inline-block !important;
+  background: red !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  margin: 5px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+  font-family: inherit !important;
+}
+.btn:focus {
+  outline: none  !important;
+}
+.btn:active {
+  transform: scale(0.98)  !important;
+}
+
+.btn-block {
+  display: block  !important;
+  width: 100%  !important;
+}
+
+.task {
+  background: #f4f4f4  !important;
+  margin: 5px  !important;
+  padding: 10px 20px  !important;
+  cursor: pointer  !important;
+}
+
+.task.reminder {
+  border-left: 5px solid green  !important;
+}
+.task.noReminder{
+  border-left: 5px solid red  !important;
+}
+
+.task h3 {
+  display: flex  !important;
+  align-items: center  !important;
+  justify-content: space-between  !important;
+}
+
+.add-form {
+  margin-bottom: 40px  !important;
+}
+
+.form-control {
+  margin: 20px 0  !important;
+}
+
+.form-control label {
+  display: block  !important;
+}
+
+.form-control input {
+  width: 100%  !important;
+  height: 40px  !important;
+  margin: 5px  !important;
+  padding: 3px 7px  !important;
+  font-size: 17px  !important;
+}
+
+.form-control-check {
+  display: flex  !important;
+  align-items: center  !important;
+  justify-content: space-between  !important;
+}
+
+.form-control-check label {
+  flex: 1  !important;
+}
+
+.form-control-check input {
+  flex: 2  !important;
+  height: 20px !important;
+}
+
+footer {
+  margin-top: 30px !important;
+  text-align: center !important;
+}
+.version{
+  border: 1px solid blue  !important;;
+  padding: 20px  !important;;
+}
